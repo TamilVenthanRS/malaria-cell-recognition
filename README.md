@@ -8,20 +8,34 @@
 To develop a deep neural network for Malaria infected cell recognition and to analyze the performance.
 
 ## Problem Statement and Dataset
+Malaria dataset of 27,558 cell images with an equal number of parasitized and uninfected cells. A level-set based algorithm was applied to detect and segment the red blood cells. The images were collected and annotated by medical professionals.Here we build a convolutional neural network model that is able to classify the cells.
+
+
+![Screenshot (441)](https://user-images.githubusercontent.com/75243072/193461007-0ba8cd13-be7b-41b9-8eb6-1058406658f6.png)
 
 ## Neural Network Model
 
 Include the neural network model diagram.
 
 ## DESIGN STEPS
-
-### STEP 1:
-
+### STEP-1:
+Import tensorflow and preprocessing libraries
 ### STEP 2:
-
-### STEP 3:
-
-Write your own steps
+Download and load the dataset folder
+### STEP-3:
+Split the  training and testing folders.
+### STEP 4:
+Perform image data generation methods.
+### STEP-6:
+Build the convolutional neural network model
+### STEP-7:
+Train the model with the training data
+### STEP-8:
+Plot the performance plot
+### STEP-9:
+Evaluate the model with the testing data using probability prediction(uninfected-> prob>0.5,parasitized-> <=0.5)
+### STEP-10:
+Fit the model and predict the sample input.
 
 ## PROGRAM
 
@@ -157,3 +171,4 @@ else:
 ![Screenshot (437)](https://user-images.githubusercontent.com/75243072/193250408-22bb3ee4-c241-4f33-8599-99a755b52032.png)
 
 ## RESULT
+ Thus, a deep neural network for Malaria infected cell recognition is developed and  the performance is analyzed.
